@@ -2,15 +2,16 @@ import React from 'react'
 import styled from "styled-components";
 import {BsHouseFill} from "react-icons/bs";
 import "../index.css";
+import Language from "./Language";
 
 const Navbar = () => {
   return (
     <>
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-[#F6D9A0]">
+    <nav className="bg-[#F6D9A0] border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
   <div className="container flex flex-wrap justify-between items-center mx-auto">
   <a href="#" className="flex items-center">
       <img src="./navbarLogo.png" className="mr-3 h-8 sm:h-9" alt="Flowbite Logo"/>
-      <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white dark:bg-[#FFF] homeIcon">{<BsHouseFill style={{color:"#FBB378"}}/>}</span>
+      <span className="self-center text-xl font-semibold whitespace-nowrap text-white bg-[#FFF] homeIcon">{<BsHouseFill style={{color:"#FBB378"}}/>}</span>
   </a>
   <div className="flex md:order-2">
     <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false" className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-orange-100 focus:outline-none rounded-lg text-sm p-2.5 mr-1 searchRes">
