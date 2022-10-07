@@ -11,9 +11,7 @@ function App() {
     <div className="App">
       {/* <> */}
       <Navbar />
-      <div className='sliderStyle'>
-        <Slider />
-      </div>
+      <Slider />
       {/* </> */}
       <div className="section">
         <Section />

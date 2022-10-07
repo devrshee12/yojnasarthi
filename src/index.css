@@ -62,9 +62,19 @@ code {
     
   }
 
+  .main{
+    max-height:80%;
+
+  }
+  .main h1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .container{
     width: 100%;
-    max-width: 80%;
+    max-width: 60%;
+    /* max-height:33%; */
     margin: 1.5rem 0;
   }
 }
