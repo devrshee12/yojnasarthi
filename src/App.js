@@ -3,19 +3,20 @@ import './App.css';
 import { useSchemeContext } from './context/context';
 import Navbar from './components/Navbar';
 import Slider from './components/Slider';
+import Section from './components/Section';
 
 function App() {
   // const {temp} = useSchemeContext();
   return (
     <div className="App">
-    {/* <> */}
-    <Navbar/>
-    <div className='sliderStyle'>
-      <Slider/>
-    </div>
-    {/* </> */}
-    temp
-      
+      {/* <> */}
+      <Navbar />
+      <Slider />
+      {/* </> */}
+      <div className="section">
+        <Section />
+      </div>
+
     </div>
   );
 }

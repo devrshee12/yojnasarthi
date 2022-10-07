@@ -41,11 +41,43 @@ code {
 }
 
 
-.searchRes{
-  /* border: 1px solid cyan; */
-}
 
 .searchRes:hover{
   background-color: orange;
 
+}
+
+
+
+@media only screen and (max-width :768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+  }
+
+  .main {
+    max-height: 80%;
+
+  }
+
+  .main h1 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 60%;
+    /* max-height:33%; */
+    margin: 1.5rem 0;
+  }
+
+    .caro {
+      max-height: 40%;
+    }
+
+   
 }
