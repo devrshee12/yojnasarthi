@@ -41,11 +41,30 @@ code {
 }
 
 
-.searchRes{
+/* .searchRes{ */
   /* border: 1px solid cyan; */
-}
+/* } */
 
 .searchRes:hover{
   background-color: orange;
 
+}
+
+/* media queries */
+
+@media only screen and (max-width :768px)
+{
+  .section{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+  }
+
+  .container{
+    width: 100%;
+    max-width: 80%;
+    margin: 1.5rem 0;
+  }
 }

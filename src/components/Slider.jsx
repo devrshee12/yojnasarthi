@@ -36,7 +36,7 @@ const Slider = () => {
     {/* <!-- Single item --> */}
     <div class="carousel-item active relative float-left w-full h-full">
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+        src="./slider1.jpg"
         class="block w-full h-full"
         alt="Motorbike Smoke"
       />
@@ -49,7 +49,7 @@ const Slider = () => {
     {/* <!-- Single item --> */}
     <div class="carousel-item relative float-left w-full h-full">
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+        src="./slider2.jpg"
         class="block w-full h-full"
         alt="Mountaintop"
       />
@@ -62,7 +62,7 @@ const Slider = () => {
     {/* <!-- Single item --> */}
     <div class="carousel-item relative float-left w-full h-full">
       <img
-        src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+        src="./slider3.jpg"
         class="block w-full h-full"
         alt="Woman Reading a Book"
       />
